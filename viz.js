@@ -149,34 +149,7 @@ function RCTRL(s) {
 }
 
 var clicks = [
-	new clickable(75 , 0*100+75, 80, RCTRL("LED-0"), {txt: "Dynamic\nRainbow"}),
-	new clickable(175, 0*100+75, 80, RCTRL("LED-1"), {txt: "Static\nRainbow"}),
-	new clickable(75 , 1*100+75, 80, RCTRL("LED-2"), {txt: "White"}),
-	new clickable(175, 1*100+75, 80, RCTRL("LED-3"), {txt: "TV\nBacklight"}),
-	new clickable(125, 2*100+75, 80, RCTRL("LED-4"), {txt: "Off"}),
-	
-	new clickable(440, 0*100+75, 80, RCTRL("Light-1"), {txt: "Rainbow"}),
-	new clickable(540, 0*100+75, 80, RCTRL("Light-0"), {txt: "White"}),
-	new clickable(490, 1*100+75, 80, RCTRL("Light-2"), {txt: "Off"}),
-	
-	new clickable(755, 0*100+75, 80, RCTRL("Screen-1"), {txt: "Screen\non"}),
-	new clickable(855, 0*100+75, 80, RCTRL("Screen-0"), {txt: "Screen\noff"}),
-	
-	new clickable(width - 75 , 375, 80, "fast", {notCmd: true, hold: true, txt: "Rotate\nspeed\n+"}),
-	new clickable(width - 175, 375, 80, "slow", {notCmd: true, hold: true, txt: "Rotate\nspeed\n-"}),
-	
-	new clickable(width - 75 , 75, 80, "bigger" , {notCmd: true, hold: true, txt: "Circle\nsize\n+"}),
-	new clickable(width - 175, 75, 80, "smaller", {notCmd: true, hold: true, txt: "Circle\nsize\n-"}),
-	
-	new clickable(width - 75 , 175, 80, "oscBig"  , {notCmd: true, hold: true, txt:"Oscillate\nsize\n+"}),
-	new clickable(width - 175, 175, 80, "oscSmall", {notCmd: true, hold: true, txt:"Oscillate\nsize\n-"}),
-	
-	new clickable(width - 75 , 275, 80, "oscSpeedHigh", {notCmd: true, hold: true, txt:"Oscillate\nspeed\n+"}),
-	new clickable(width - 175, 275, 80, "oscSpeedLow" , {notCmd: true, hold: true, txt:"Oscillate\nspeed\n-"}),
-	
-	new clickable(width - 75 , height - 115, 80, "TBspeedHigh", {notCmd: true, hold: true, txt:"Taskbar\n+"}),
-	new clickable(width - 175, height - 115, 80, "TBspeedLow" , {notCmd: true, hold: true, txt:"Taskbar\n-"})
-	
+	new clickable(75 , 0*100+75, 80, "some command here", {txt: "epic label"})
 ]
 
 var strk = 5;
