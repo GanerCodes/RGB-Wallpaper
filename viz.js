@@ -43,8 +43,8 @@ window.wallpaperPropertyListener = {
 }
 
 function preload() {
-	img  = loadImage("http://files.ganer.xyz/Usefull%20things/line.png");
-	img2 = loadImage("http://files.ganer.xyz/Usefull%20things/ring.png");
+	img  = loadImage("http://files.ganer.xyz/@Files/line.png");
+	img2 = loadImage("http://files.ganer.xyz/@Files/ring.png");
 }
 function crazyLine(x1, y1, x2, y2, seg, offset) {
   for(var d = 1; d < seg + 1; d++) {
